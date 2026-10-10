@@ -1,15 +1,83 @@
+
 @charset "UTF-8";
 
-/* CSS Document */
-/* The body tag style applies to all elements on the page */
 body {
-    background-color: wheat;
+    background-color: #F3F1E9;
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
 }
 
+header {
+    background-color: #DDE3D8;
+}
+
 nav img {
     max-width: 5%;
     height: 5%;
+}
+
+nav {
+    background-color: #E8EBE3;
+    color: #536456;
+    padding: 20px;
+    margin: 2%;
+    text-align: center;
+    width: 90%;
+}
+
+nav a {
+    color: #536456;
+    margin: 0 8%;
+    text-decoration: none;
+}
+
+section img {
+    max-width: 75%;
+    height: auto;
+}
+
+article {
+    background-color: #E8EBE3;
+    color: #536456;
+    padding: 20px;
+    margin: 2%;
+    float: left;
+    width: 90%;
+}
+
+section {
+    float: left;
+    width: 43%;
+    min-height: 250px;
+    margin: 1%;
+    background-color: #E4E8DF;
+    color: #536456;
+    border: 1px solid #D4DCCF;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 4px 4px 6px gray;
+}
+
+footer {
+    clear: both;
+    background-color: #DDE3D8;
+    color: #536456;
+    padding: 20px;
+}
+
+#form {
+    background-color: #E8EBE3;
+    color: #536456;
+    padding: 20px;
+    margin: 2%;
+    width: 90%;
+    text-align: center;
+}
+
+
+
+header h1 {
+    text-align: center;
+    color: #536456;
 }
