@@ -3,16 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <title> Waseed's Portfolio </title>
+    <link href="desktop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:961px)">
+    <link href="tablet.css" rel="stylesheet" type="text/css"
+        media="only screen and (min-width:481px) and (max-width:960px)">
+    <link href="mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    <title>Waseed's Portfolio - Projects</title>
 </head>
 
-<body>
+<body id="projects-page">
     <div id="wrapper">
         <header>
             <h1>Waseed Obaid's Portfolio</h1>
             <nav>
-                <img src="bitmojicropped.png">
+                <img src="bitmojicropped.png" alt="Waseed's portfolio avatar">
                 <a href = "index.html"> Home Page </a>
                 <a href = "aboutme.html"> About Me </a>
                 <a href = "projects.html"> Projects </a>
@@ -20,21 +25,21 @@
             </nav>
         </header>
         <article>
-            <section class = "left-column">
+            <section>
                 <h3>Hangman Game</h3>
                 <p>This project was a culminating assignment for INFR1101. My group and I decided to recreate the popular hangman game on python
                     for this project. We had both a single and multiplayer mode for people that wanted to play with friends! We incorporated
                     many aspects learned in the course such as file handling, loops, and functions.
                 </p>
             </section>
-            <section class = "right-column">
+            <section>
                 <h3>Banking System</h3>
                 <p>This project was a culminating assignment for INFR2141. My group and I decided to create a banking system with traditional
                     banking features using python. Individuals can deposit, withdraw, transfer, check balances, and apply for loans. We used inheritance, 
                     polymorphism, encapsulation, and abstraction aspects which were learned throughout the course.
                 </p>
             </section>
-            <section class = "left-column">
+            <section>
                 <h3>INFR2411 Case Study</h3>
                 <p>For this project my group and I were tasked with a mock scenario of connecting a company's 3 corporate offices to the same network.
                     This was done by creating a simulated enviornment of packet tracer and enabling various networking protocols that we learned
@@ -43,7 +48,7 @@
 
                 </p>
             </section>
-            <section class = "right-column">
+            <section>
                 <h3>Napkin Design</h3>
                 <p>This was an assignment for BUSI1600 and was called a napkin design as it was meant to be a rough estimate as to how much revenue
                     and expenses a business we were to start may have. The irony of the assignment was that once I started it, I realized that even

@@ -4,6 +4,7 @@
 body {
     background-color: #F3F1E9;
     font-family: Verdana, Geneva, Arial, sans-serif;
+    background: linear-gradient(#F3F1E9, #A3B5A0);
     padding: 0px;
     margin: 0px;
 }
@@ -75,9 +76,11 @@ footer {
     text-align: center;
 }
 
-
-
 header h1 {
     text-align: center;
     color: #536456;
+}
+
+#projects-page article {
+    background: linear-gradient(135deg, #E8EBE3, #B7C8B2);
 }

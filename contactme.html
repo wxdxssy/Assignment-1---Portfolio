@@ -1,10 +1,16 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <title> Waseed's Portfolio </title>
+    <link href="desktop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:961px)">
+    <link href="tablet.css" rel="stylesheet" type="text/css"
+        media="only screen and (min-width:481px) and (max-width:960px)">
+    <link href="mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    <title>Waseed's Portfolio - Contact Me</title>
 </head>
 
 <body>
@@ -12,36 +18,53 @@
         <header>
             <h1>Waseed Obaid's Portfolio</h1>
             <nav>
-                <img src="bitmojicropped.png">
-                <a href="index.html"> Home Page </a>
-                <a href="aboutme.html"> About Me </a>
-                <a href="projects.html"> Projects </a>
-                <a href="contactme.html"> Contact Me </a>
+                <img src="bitmojicropped.png" alt="Waseed's portfolio avatar">
+                <a href="index.html">Home Page</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="contactme.html">Contact Me</a>
             </nav>
         </header>
-    </div>
-    <div id="form">
-        <form action="mailto:waseedullah.obaid@ontariotechu.net" ?subject=Signup Form method="post" enctype="text/plain"
-            name="form">
-            <p>
-                <label for="name">Name</label>
-                <input type="text" name="name" size="60" placeholder="John Doe">
-            </p>
-            <p>
-                <label for="email">Email</label>
-                <input name="email" type="email" size="60" placeholder="name@example.com">
-            </p>
-            <p>
-                <label for="comments">Your Message</label><br>
-                <textarea name="comments" cols="60" rows="6"></textarea>
-            </p>
-            <p>
-                <input type="submit" value="Click here to submit the form" />
-            </p>
-            <p>
-                <input type="reset" value="Click here to reset the form" />
-            </p>
-        </form>
+
+        <div id="form">
+            <form action="mailto:waseedullah.obaid@ontariotechu.net?subject=Portfolio%20Contact"
+                method="post" enctype="text/plain" name="form">
+
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"
+                        size="60" placeholder="John Doe" required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"
+                        size="60" placeholder="name@example.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone"
+                        size="60" placeholder="123-456-7890">
+                </p>
+
+                <p>
+                    <label for="comments">Your Message</label><br>
+                    <textarea id="comments" name="comments"
+                        cols="60" rows="6" required></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Click here to submit the form">
+                </p>
+
+                <p>
+                    <input type="reset" value="Click here to reset the form">
+                </p>
+
+            </form>
+        </div>
+
         <footer>
             <p>© 2026 By Waseed Obaid</p>
             <p>Contact: waseedullah.obaid@ontariotechu.net</p>

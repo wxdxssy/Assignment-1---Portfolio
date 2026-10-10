@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+article {
+    float: none;
+    width: 85%;
+    margin: 2%;
+}
+
+section {
+    float: none;
+    width: 85%;
+    margin: 2%;
+}
+
+nav {
+    width: 85%;
+    padding: 15px;
+}
+
+nav a {
+    margin: 2%;
+}
+
+nav img {
+    max-width: 8%;
+    height: auto;
+}
+
+section img {
+    max-width: 75%;
+    height: auto;
+}
+
+video {
+    max-width: 90%;
+    height: auto;
+}
+
+#form {
+    width: 85%;
+}
